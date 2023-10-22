@@ -1,0 +1,55 @@
+/*  */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* header */
+.header-container {
+    width: 100%;
+    /* Thêm bất kỳ kiểu CSS nào bạn muốn cho container này */
+  }
+  
+  /* Kiểu cho class "container" vẫn giữ nguyên và không bị ảnh hưởng */
+  .container {
+    max-width: 1320px;
+    /* Thêm kiểu CSS cho class "container" nếu cần */
+  }
+  
+
+/* banner  */
+.banner {
+    margin-top: 50px;
+    padding: 3rem;
+}
+
+.container .banner_text {
+    font-size: 1.5rem;
+}
+
+/* item */
+.feature {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+}
+
+.mt-n4 {
+    margin-top: -1.5rem !important;
+}
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.fs-4 {
+    font-size: 1.5rem !important;
+}
+
+.pt-lg-0 {
+    padding-top: 0 !important;
+}
+
